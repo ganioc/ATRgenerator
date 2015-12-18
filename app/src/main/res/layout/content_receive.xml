@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingTop="@dimen/top_padding"
+    tools:showIn="@layout/activity_receive"
+    tools:context="com.boxshell.lesson.atrgenerator.ReceiveActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:padding="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textHeaderReceive"
+            android:id="@+id/textViewReceive"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/textHeaderSize"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:id="@+id/textReceived"
+            android:minLines="1"/>
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

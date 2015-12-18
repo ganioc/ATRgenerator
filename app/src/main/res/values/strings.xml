@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ATRgenerator</string>
+    <string name="action_settings">Settings</string>
+    <string name="textHeader">Input</string>
+    <string name="textSend">Send</string>
+    <string name="textReceive">Receive</string>
+    <string name="textHeaderReceive">Received</string>
+    <string name="editInputHint">Write text ...</string>
+</resources>
